@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>对元素进行排序</title>
+
+    <script>
+        var myArray = new  Array("a","c","y","b","e");
+        var ord = prompt("enter 1 for order,enter -1 for reserve",1);
+
+        if(ord==1)
+        {
+            myArray.sort();
+            document.write(myArray.join("<br/>"));
+        }
+        else if(ord==-1)
+        {
+            myArray.sort();
+            myArray.reverse();
+            document.write(myArray.join("<br/>"));
+        }
+        else {document.write("wrong enter!");}
+    </script>
+
+</head>
+<body>
+
+</body>
+</html>
